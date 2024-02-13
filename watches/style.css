@@ -1,0 +1,220 @@
+/* header section */
+header{
+    border: 1px solid #242f71;
+    background-color: #242f71;
+    height: 50px;
+    width: 101%;
+    margin: -20px 0px 0px -10px;
+}
+header h1{
+    color: white;
+    margin-left: 46%;
+    text-shadow: 5px 5px 5px  #0d0d0d;
+}
+img{
+    width: 1515px;
+    height: 600px;
+    margin-left: -8px;
+    margin-top: 0px;
+}
+h2{
+    margin-top: -35%;
+    margin-left: 17%;
+    font-size: 80px;
+}
+p{
+    margin-top: 3%;
+    margin-left: 17%;
+    width: 450px;
+    text-align: justify;
+}
+button{
+    height: 65px;
+    width: 150px;
+    margin-left:26% ;
+    margin-top: 5%;
+    background-color: #242f71;
+    color: rgb(255, 255, 255);
+    border-radius: 5%;
+    border: 2px solid  rgb(211, 209, 229);
+}
+.border{
+    border: 1px solid #242f71;
+    background-color: #242f71;
+    height: 50px;
+    width: 101%;
+    margin: 80px 0px 0px -10px;
+}
+.border h1{
+    margin-left: 35%;
+    margin-top: 0.5%;
+    color: white;
+    text-shadow: 5px 5px 5px  #0d0d0d;
+    font-size: 25px;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    
+    header{
+        border: 1px solid #242f71;
+        background-color: #242f71;
+        height: 50px;
+        width: 103%;
+        margin: -20px 0px 0px -10px;
+    }
+    header h1{
+        color: white;
+        margin-left: 42%;
+        margin-top:3%;
+        text-shadow: 5px 5px 5px  #0d0d0d;
+    }
+    img{
+        width: 500px;
+        height: 600px;
+        margin-left: -8px;
+        margin-top: 0px;
+    }
+    h2{
+        margin-top: -118%;
+        margin-left: 5%;
+        font-size: 30px;
+    }
+    p{
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 250px;
+        font-size: 18   px;
+        text-align: justify;
+    }
+    button{
+        height: 65px;
+        width: 150px;
+        margin-left:20% ;
+        margin-top: 25%;
+        background-color: #242f71;
+        color: rgb(255, 255, 255);
+        border-radius: 5%;
+        border: 2px solid  rgb(211, 209, 229);
+    }
+
+
+.border{
+    border: 1px solid #242f71;
+    background-color: #242f71;
+    height: 50px;
+    width: 103%;
+    margin: 80px 0px 0px -10px;
+}
+.border h1{
+    margin-left: 2%;
+    margin-top: 2%;
+    color: white;
+    text-shadow: 5px 5px 5px  #0d0d0d;
+    font-size: 25px;
+}
+}
+
+/* product section */
+.product{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 250px 250px 450px;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+.product img{
+    width: 350px;
+    height: 250px;
+    border-radius: 25%
+    
+}
+.product h3{
+    margin-left: 20%;
+    font-size: 15px;
+    
+}
+.product button{
+   background-color:  #242f71;
+   width: 55px;
+   height: 25px;
+   border: 1px solid rgb(255, 255, 255);
+   margin-bottom: 15%;
+   color: #ffffff;
+   ;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    
+
+    .product{
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: 250px 250px ;
+        justify-content: space-between;
+        margin-top: 10%;
+        margin-left: 2%;
+        margin-bottom: 20%;
+    }
+    .product img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        
+    }
+    .product h3{
+        margin-left: 5%;
+        font-size: 15px;
+        margin-bottom: -15%;
+    }
+    .product button{
+       background-color:  #242f71;
+       width: 55px;
+       height: 25px;
+       border: 1px solid rgb(255, 255, 255);
+       margin-bottom: 15%;
+       color: #ffffff;
+    }
+
+}
+
+/* footer section */
+footer{
+    border: 1px solid #242f71;
+    background-color: #242f71;
+    height: 70px;
+    width: 101.1%;
+    margin: 80px 0px -10px -10px;
+
+}
+.copyright {
+
+    color: white;
+    margin-left: 1%;
+   
+   
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {   
+
+    footer{
+        border: 1px solid #242f71;
+        background-color: #242f71;
+        height: 70px;
+        width: 103%;
+        margin: 80px 0px -10px -10px;
+    
+    }
+    .copyright {
+    
+        color: white;
+        margin-left: 1%;
+       
+       
+    }
+
+}
