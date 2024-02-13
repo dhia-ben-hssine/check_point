@@ -1,0 +1,90 @@
+body{
+    background-image:  url("bg--MzmZmhX3-transformed.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+  }
+
+nav{ 
+    border: solid 1px  rgba(0, 0, 0, 0.468);
+    background-color: rgba(0, 0, 0, 0.468);
+    height: 60px;
+    width: 100%;
+    margin-top:-8%;
+    margin-left: -0.1%;
+    position:block;
+   
+
+}
+nav ul li{
+    
+    display: inline;
+    padding-left: 0px;
+    margin-left:15%;
+    font-size: 18px;
+    
+}
+nav ul{
+    margin-left: 5%;
+    margin-top: 20px;
+
+}
+li a {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a:link {
+    text-decoration: none;
+  }
+nav a:hover{
+    background-color: rgb(200, 167, 20);
+    padding: 10px 15px 10px 15px;
+   
+}
+
+
+
+
+.logo img{
+    width:170px;
+    height: 150px;
+    margin-top: -2%;
+    margin-left: 10%;
+    border-radius: 100%;
+    
+
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin-top: 20%;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+   
+}
+.hero-text button a:hover {
+    text-decoration: none;
+  }
